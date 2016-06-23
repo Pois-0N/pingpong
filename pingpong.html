@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<style>
+#playground{
+	background:#e0ffe0;
+	width:400px;
+	height:200px;
+	position:relative;
+	overflow:hidden;
+}
+.paddle{
+	background:#bbf;
+	width:30px;
+	height:70px;
+	top:50px;
+	position:absolute;
+}
+#paddleA{ left:50px;}
+#paddleB{ left:320px;}
+#ball{
+	background:#fbb;
+	width:20px;
+	height:20px;
+	border-radius:10px;
+	left:150px;
+	top:100px;
+	position:absolute;
+}
+</style>
+</head>
+
+<body>
+ <div id="playground">
+   <div id="paddleA" class="paddle"></div>
+   <div id="paddleB" class="paddle"></div>
+   <div id="ball"></div>
+ </div>
+ 
+<script src="js/jquery.min.js"></script>
+<script src="js/pingpong.js"></script>
+</body>
+</html>
